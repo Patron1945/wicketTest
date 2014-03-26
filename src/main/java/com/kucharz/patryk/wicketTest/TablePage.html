@@ -4,47 +4,47 @@
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 	</head>
 <body>
-	<div id="header"> TABLE PAGE </div>
-	<table class="ui five column table segment">
+<wicket:extend>
+<h1>TablePage</h1>
+<table class="ui celled table segment">
   <thead>
-    <tr><th>Dane</th>
-    <th>Parsowanie</th>
-    <th>Zapis</th>
-    <th>Odczyt</th>
-    <th>Baza</th>
-  </tr></thead>
+    <tr>
+	    <th>Dane</th>
+	    <th>Parsowanie</th>
+	    <th>Zapis</th>
+	    <th>Odczyt</th>
+  	</tr>
+  </thead>
   <tbody>
     <tr>
       <td>xxx</td>
       <td>1.5ms</td>
       <td>2.2ms</td>
       <td>1.5ms</td>
-      <td>NoSQL</td>
     </tr>
     <tr>
       <td>yyy</td>
       <td>2.1ms</td>
       <td>3.2ms</td>
       <td>2.1ms</td>
-      <td>NoSQL</td>
     </tr>
       <tr>
       <td>xxx</td>
       <td>1.5ms</td>
       <td>2.2ms</td>
       <td>1.5ms</td>
-      <td>NoSQL</td>
     </tr>
   </tbody>
   <tfoot>
-    <tr><th>3 Data Sets</th>
-    <th>2 Average: 1.7ms</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr></tfoot>
+    <tr>
+	    <th>3 Data Sets</th>
+	    <th>2 Average: 1.7ms</th>
+	    <th></th>
+	    <th></th>
+	    <th></th>
+  	</tr>
+  </tfoot>
 </table>
-	
-	<div id="footer"> Author@ Patryk Kucharz </div>
+</wicket:extend>
 </body>
 </html>
