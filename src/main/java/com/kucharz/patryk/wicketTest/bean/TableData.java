@@ -17,4 +17,10 @@ public class TableData implements TableDataMBean
 		this.table[row][col] = value;
 		
 	}
+
+	@Override
+	public int[][] getTableValues()
+	{
+		return table;
+	}
 }

@@ -76,7 +76,11 @@
 			<artifactId>wicket-jmx</artifactId>
 			<version>6.14.0</version>
 		</dependency>
-
+		<dependency>
+    		<groupId>org.apache.wicket</groupId>
+   			<artifactId>wicket-auth-roles</artifactId>
+    		<version>6.14.0</version>
+		</dependency>
 		<!--  JUNIT DEPENDENCY FOR TESTING -->
 		<dependency>
 			<groupId>junit</groupId>

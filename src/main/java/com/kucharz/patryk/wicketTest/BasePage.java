@@ -12,6 +12,7 @@ public class BasePage extends WebPage
 	{
 		add(new BookmarkablePageLink("HomePage", HomePage.class));
 		add(new BookmarkablePageLink("TablePage", TablePage.class));
+		add(new BookmarkablePageLink("SignOutPage", SignOutPage.class));
 		add(new Label("footer","Author@ Patryk Kucharz"));
 	}
 }

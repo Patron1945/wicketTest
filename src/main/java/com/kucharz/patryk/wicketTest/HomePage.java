@@ -1,9 +1,9 @@
 package com.kucharz.patryk.wicketTest;
 
-import org.apache.wicket.markup.html.WebPage;
+import org.apache.wicket.authroles.authorization.strategies.role.annotations.AuthorizeInstantiation;
 import org.apache.wicket.markup.html.basic.Label;
-import org.apache.wicket.markup.html.link.BookmarkablePageLink;
 
+//@AuthorizeInstantiation("ADMIN")
 public class HomePage extends BasePage
 {
 	public HomePage()
